@@ -1,5 +1,14 @@
 # Notes de version
 
+## 0.17.0 — 14 juillet 2026
+### ✨ Nouveautés
+- Depuis la recherche, le bouton "+" rapide n'ouvre plus la fiche du titre : tu restes sur l'écran de recherche pour enchaîner les ajouts, et un ✓ remplace le "+" une fois le titre ajouté
+- Fiche d'une série, onglet épisodes : une saison pas encore sortie affiche maintenant "Saison pas encore sortie" au lieu d'une liste vide ; le prochain épisode à regarder affiche "Épisode à venir" avec le nombre de jours restants s'il n'est pas encore diffusé ; chaque épisode à venir affiche maintenant son propre compte à rebours
+### 🐛 Corrections
+- Recherche dans ma bibliothèque : la recherche restait active en arrière-plan après avoir quitté l'écran (fiche détail, autre onglet), filtrant silencieusement la liste sans que le champ de recherche soit visible pour l'expliquer — elle est maintenant réinitialisée à chaque sortie de l'écran
+### 🔧 Améliorations
+- Le tri "ajout récent"/"dernier vu" affiche maintenant un vrai libellé de section (comme les autres tris) au lieu d'un simple espace
+
 ## 0.16.1 — 14 juillet 2026
 ### 🐛 Corrections
 - Recherche dans ma bibliothèque : impossible d'effacer le texte saisi dans certains cas — le champ réagit maintenant instantanément à la saisie et un bouton "X" permet de tout effacer d'un coup

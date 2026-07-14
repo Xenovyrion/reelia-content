@@ -1,5 +1,14 @@
 # Release notes
 
+## 0.17.0 — July 14, 2026
+### ✨ New
+- The quick "+" button on a search result no longer opens the title's detail screen — you stay on the search screen to add several titles in a row, and a ✓ replaces the "+" once added
+- Show detail, episode tab: a season that hasn't aired yet now shows "Season not yet released" instead of an empty list; the next episode to watch shows "Upcoming episode" with a days-until countdown if it hasn't aired yet; every unreleased episode now shows its own countdown
+### 🐛 Fixed
+- Local library search: the search stayed active in the background after leaving the screen (a detail page, another tab), silently filtering the list with no visible field to explain why — it's now reset whenever you leave the screen
+### 🔧 Improved
+- "Recently added"/"recently watched" sort now shows a real section label (like every other sort) instead of a bare spacer
+
 ## 0.16.1 — July 14, 2026
 ### 🐛 Fixed
 - Local library search: couldn't clear the typed text in some cases — the field now reacts instantly to typing, and a new "X" button clears it in one tap
