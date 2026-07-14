@@ -1,5 +1,18 @@
 # Notes de version
 
+## 0.15.2 — 14 juillet 2026
+### 🐛 Corrections
+- Le bouton "Réinitialiser" du panneau filtre/tri ne remettait pas l'ordre de tri à sa valeur par défaut, seulement les filtres de statut/genre
+- Panneau filtre/tri : sur les petits écrans, le bouton "Appliquer" pouvait être hors d'atteinte tout en bas sans possibilité de défiler jusqu'à lui — le panneau a maintenant une hauteur fixe avec défilement interne, les boutons Réinitialiser/Appliquer restent toujours visibles
+- Retour en haut d'écran : l'animation de défilement donnait l'impression que toute la liste "s'envolait" vers le haut sur les longues listes — le retour est maintenant instantané
+### ✨ Nouveautés
+- Nouvel ordre de tri "Dernier vu" dans Séries/Films, basé sur l'historique de visionnage
+- Le tri alphabétique regroupe maintenant les titres par lettre (avec un groupe "0-9" pour les titres commençant par un chiffre) au lieu d'une longue liste indifférenciée
+### 🔧 Améliorations
+- Les tris par statut, genre, ajout récent et dernier vu appliquent maintenant un tri alphabétique secondaire au sein de chaque groupe
+- Affichage en grille dans Séries/Films optimisé (meilleure réactivité sur les longues bibliothèques)
+- Message d'erreur App Check plus précis : distingue maintenant une limite de fréquence ("too many attempts") d'un blocage de l'API côté Google Cloud, avec une explication adaptée à chaque cas
+
 ## 0.15.1 — 14 juillet 2026
 ### 🐛 Corrections
 - Le retour en haut de l'écran en tapant sur un onglet en bas ne fonctionnait toujours pas dans certains cas (par exemple Profil → Séries → retour à Profil) — la correction précédente ne suffisait pas, le mécanisme a été refait

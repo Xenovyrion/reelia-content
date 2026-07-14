@@ -1,5 +1,18 @@
 # Release notes
 
+## 0.15.2 — July 14, 2026
+### 🐛 Fixed
+- The filter/sort sheet's "Reset" button didn't reset the sort order back to its default, only the status/genre filters
+- Filter/sort sheet: on small screens, the "Apply" button could be out of reach at the bottom with no way to scroll to it — the sheet now has a fixed height with internal scrolling, so the Reset/Apply row always stays visible
+- Scroll-to-top on bottom tab tap looked like the whole list was "flying" upward on long lists — it now jumps instantly instead of animating
+### ✨ New
+- New "Recently watched" sort option in Shows/Movies, based on watch history
+- Alphabetical sort now groups titles into per-letter sections (with a "0-9" bucket for titles starting with a digit) instead of one long undifferentiated list
+### 🔧 Improved
+- Status, genre, recently-added, and recently-watched sorts now apply a secondary alphabetical sort within each group
+- Grid view in Shows/Movies optimized for better responsiveness on long libraries
+- More precise App Check error message: now distinguishes a rate limit ("too many attempts") from the API being blocked on Google Cloud's side, with a tailored explanation for each
+
 ## 0.15.1 — July 14, 2026
 ### 🐛 Fixed
 - Scroll-to-top on bottom tab tap still didn't work in some cases (e.g. Profile → Shows → back to Profile) — the previous fix wasn't enough, the whole mechanism was rebuilt
