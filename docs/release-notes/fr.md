@@ -1,5 +1,12 @@
 # Notes de version
 
+## 0.13.1 — 14 juillet 2026
+### 🐛 Corrections
+- L'appli pouvait planter juste après la connexion sur une bibliothèque toute juste réinitialisée, avant que la clé API TMDB n'ait eu le temps de se resynchroniser
+### 🔧 Améliorations
+- Geste de retour (balayage depuis le bord) pris en charge nativement par Android
+- Nettoyage interne du nom de l'appli pour qu'il soit cohérent partout
+
 ## 0.13.0 — 14 juillet 2026
 ### ✨ Nouveautés
 - Annonces in-app : un message important peut s'afficher en bannière ou en popup au lancement, publié directement sur GitHub sans nouvelle version de l'appli

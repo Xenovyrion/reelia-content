@@ -1,5 +1,12 @@
 # Release notes
 
+## 0.13.1 — July 14, 2026
+### 🐛 Fixed
+- The app could crash right after signing in on a freshly reset library, before the TMDB API key had time to sync back down
+### 🔧 Improved
+- Native Android back gesture (edge swipe) support
+- Internal app naming cleanup for consistency
+
 ## 0.13.0 — July 14, 2026
 ### ✨ New
 - In-app announcements: an important message can show as a banner or a popup on launch, published directly on GitHub without a new app version
