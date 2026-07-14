@@ -3,6 +3,9 @@
 ## 0.13.2 — 14 juillet 2026
 ### 🐛 Corrections
 - Le badge "Actuelle" des notes de version restait bloqué sur la dernière version publiée au lieu de suivre la version réellement installée — il suit maintenant ta version, et les versions plus récentes affichent un badge distinct "Nouvelle version"
+- À l'ouverture de l'appli, un texte "bibliothèque vide" pouvait s'afficher brièvement le temps que les suggestions se chargent — l'accueil garde maintenant l'icône de chargement animée jusqu'à ce que le contenu soit prêt
+### 🔧 Améliorations
+- Nettoyage de quelques éléments techniques dépréciés (icônes, API) signalés par Android Studio, sans impact visible
 
 ## 0.13.1 — 14 juillet 2026
 ### 🐛 Corrections

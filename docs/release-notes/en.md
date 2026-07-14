@@ -3,6 +3,9 @@
 ## 0.13.2 — July 14, 2026
 ### 🐛 Fixed
 - The release notes' "Current" badge stayed stuck on the newest published version instead of following the version actually installed — it now tracks your version, and newer entries get a distinct "New version" badge
+- On launch, an "empty library" text could briefly flash while the suggestions were still loading — Home now keeps the animated loading icon up until the content is actually ready
+### 🔧 Improved
+- Cleaned up a few deprecated technical bits (icons, APIs) flagged by Android Studio, no visible impact
 
 ## 0.13.1 — July 14, 2026
 ### 🐛 Fixed
