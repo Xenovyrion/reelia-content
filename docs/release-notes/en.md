@@ -1,5 +1,15 @@
 # Release notes
 
+## 0.15.1 — July 14, 2026
+### 🐛 Fixed
+- Scroll-to-top on bottom tab tap still didn't work in some cases (e.g. Profile → Shows → back to Profile) — the previous fix wasn't enough, the whole mechanism was rebuilt
+- Tapping "Update" could get stuck with no feedback if the download failed — the error message the app already computed but never showed is now displayed on screen
+### ✨ New
+- Added a loading indicator (spinner + "Downloading…" text) during updates, so it no longer looks like nothing is happening
+### 🔧 Improved
+- Sort (status, alphabetical, genre, recently added) is now part of the filter button in Shows/Movies instead of two nearly-identical buttons in the top bar
+- App Check (debug) button: a 60-second cooldown after a failed fetch avoids compounding Firebase's own "too many attempts" rate limit by retrying too fast, and the error message is now translated and clearer. This limit comes from Firebase's own backend and can't be removed client-side — only handled more gracefully
+
 ## 0.15.0 — July 14, 2026
 ### 🐛 Fixed
 - Important fix: account deletion was already wiping all data (library, history) before checking whether a fresh sign-in was needed — if the session wasn't recent enough, the data was lost while the account itself survived undeleted. Reauthentication is now always required before anything is touched, for both password and Google accounts

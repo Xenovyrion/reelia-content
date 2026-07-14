@@ -1,5 +1,15 @@
 # Notes de version
 
+## 0.15.1 — 14 juillet 2026
+### 🐛 Corrections
+- Le retour en haut de l'écran en tapant sur un onglet en bas ne fonctionnait toujours pas dans certains cas (par exemple Profil → Séries → retour à Profil) — la correction précédente ne suffisait pas, le mécanisme a été refait
+- La mise à jour restait bloquée sans rien afficher après avoir cliqué sur "Mettre à jour" en cas d'échec du téléchargement — le message d'erreur, déjà calculé mais jamais affiché, apparaît maintenant à l'écran
+### ✨ Nouveautés
+- Ajout d'un indicateur de chargement (icône + texte "Téléchargement…") pendant la mise à jour, pour ne plus donner l'impression que rien ne se passe
+### 🔧 Améliorations
+- Le tri (statut, alphabétique, genre, ajout récent) est maintenant intégré au bouton de filtre dans Séries/Films au lieu d'avoir deux boutons quasi identiques dans la barre du haut
+- Bouton App Check (debug) : un délai de 60 secondes après un échec évite d'aggraver l'erreur "too many attempts" de Firebase en réessayant trop vite, et le message d'erreur est maintenant traduit et plus clair. Cette limite vient du serveur de Firebase lui-même et ne peut pas être supprimée côté application — seulement mieux gérée
+
 ## 0.15.0 — 14 juillet 2026
 ### 🐛 Corrections
 - Correctif important : la suppression de compte effaçait déjà toutes les données (bibliothèque, historique) avant de demander une reconnexion récente si nécessaire — en cas de session pas assez récente, les données étaient perdues alors que le compte, lui, survivait. La reconnexion est désormais toujours demandée avant de toucher à quoi que ce soit, que le compte soit en mot de passe ou Google
