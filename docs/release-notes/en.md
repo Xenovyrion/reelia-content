@@ -1,5 +1,9 @@
 # Release notes
 
+## 0.13.2 — July 14, 2026
+### 🐛 Fixed
+- The release notes' "Current" badge stayed stuck on the newest published version instead of following the version actually installed — it now tracks your version, and newer entries get a distinct "New version" badge
+
 ## 0.13.1 — July 14, 2026
 ### 🐛 Fixed
 - The app could crash right after signing in on a freshly reset library, before the TMDB API key had time to sync back down

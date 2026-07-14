@@ -1,5 +1,9 @@
 # Notes de version
 
+## 0.13.2 — 14 juillet 2026
+### 🐛 Corrections
+- Le badge "Actuelle" des notes de version restait bloqué sur la dernière version publiée au lieu de suivre la version réellement installée — il suit maintenant ta version, et les versions plus récentes affichent un badge distinct "Nouvelle version"
+
 ## 0.13.1 — 14 juillet 2026
 ### 🐛 Corrections
 - L'appli pouvait planter juste après la connexion sur une bibliothèque toute juste réinitialisée, avant que la clé API TMDB n'ait eu le temps de se resynchroniser
