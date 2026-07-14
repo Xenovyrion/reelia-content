@@ -1,5 +1,13 @@
 # Notes de version
 
+## 0.16.1 — 14 juillet 2026
+### 🐛 Corrections
+- Recherche dans ma bibliothèque : impossible d'effacer le texte saisi dans certains cas — le champ réagit maintenant instantanément à la saisie et un bouton "X" permet de tout effacer d'un coup
+- Retour après ajout d'un titre depuis la recherche : navigation rendue plus fiable pour atterrir sur l'onglet Séries/Films au lieu de la fiche de recherche
+- Tri "ajout récent"/"dernier vu" : les éléments n'étaient plus séparés visuellement de la section "À venir"
+### 🔧 Améliorations
+- Les boutons "rechercher dans ma bibliothèque" et "rechercher sur TMDB pour ajouter" ont maintenant des icônes bien distinctes (loupe vs "+") pour éviter la confusion
+
 ## 0.16.0 — 14 juillet 2026
 ### ✨ Nouveautés
 - Nouvelle recherche locale dans Séries/Films : recherche par texte dans ta bibliothèque (titre ou nom d'épisode), à ne pas confondre avec la recherche TMDB déjà existante qui sert à trouver de nouveaux titres à ajouter

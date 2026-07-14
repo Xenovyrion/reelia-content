@@ -1,5 +1,13 @@
 # Release notes
 
+## 0.16.1 — July 14, 2026
+### 🐛 Fixed
+- Local library search: couldn't clear the typed text in some cases — the field now reacts instantly to typing, and a new "X" button clears it in one tap
+- Post-add navigation from search made more reliable, landing on the Shows/Movies tab instead of the search results screen
+- "Recently added"/"recently watched" sort: list items were no longer visually separated from the "Upcoming" section
+### 🔧 Improved
+- The "search my library" and "search TMDB to add" buttons now use clearly distinct icons (magnifying glass vs "+") to avoid confusion
+
 ## 0.16.0 — July 14, 2026
 ### ✨ New
 - New local search in Shows/Movies: text search across your own library (title or episode name) — separate from the existing TMDB search used to find new titles to add
