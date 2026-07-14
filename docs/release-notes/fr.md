@@ -1,5 +1,21 @@
 # Notes de version
 
+## 0.15.0 — 14 juillet 2026
+### 🐛 Corrections
+- Correctif important : la suppression de compte effaçait déjà toutes les données (bibliothèque, historique) avant de demander une reconnexion récente si nécessaire — en cas de session pas assez récente, les données étaient perdues alors que le compte, lui, survivait. La reconnexion est désormais toujours demandée avant de toucher à quoi que ce soit, que le compte soit en mot de passe ou Google
+- Le lien d'import TV Time pouvait s'ouvrir dans l'application TV Time elle-même au lieu du navigateur — il force maintenant l'ouverture dans le navigateur par défaut
+- En tapant sur un onglet en bas, l'écran ne revenait pas toujours en haut — c'est maintenant systématique
+### ✨ Nouveautés
+- Nouvel onglet "Trier" dans Séries/Films : par statut, ordre alphabétique, genre ou ajout récent
+- Suivi des épisodes spéciaux ("Spécials", saison 0) — sans qu'ils comptent dans le pourcentage de complétion d'une série
+- Le bouton "En savoir plus" affiche maintenant une présentation de l'application, distincte du guide d'utilisation
+### 🔧 Améliorations
+- L'onglet Profil est réorganisé en deux sous-onglets, Paramètres et Statistiques, au lieu d'un seul long écran
+- La sélection de langue ne propose plus que français/anglais, les seules langues réellement traduites
+- La section "Source de données" est masquée tant qu'il n'y a qu'un seul fournisseur (TMDB)
+- Email de vérification à l'inscription désactivé temporairement (partait en spam sans nom de domaine dédié)
+- Le titre des releases GitHub inclut maintenant le numéro de version
+
 ## 0.14.0 — 14 juillet 2026
 ### ✨ Nouveautés
 - Suppression de compte plus simple à sécuriser : si Firebase demande une reconnexion récente, l'appli propose maintenant de confirmer directement avec ton mot de passe (ou une reconnexion Google) au lieu de devoir te déconnecter puis te reconnecter

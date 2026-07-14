@@ -1,5 +1,21 @@
 # Release notes
 
+## 0.15.0 — July 14, 2026
+### 🐛 Fixed
+- Important fix: account deletion was already wiping all data (library, history) before checking whether a fresh sign-in was needed — if the session wasn't recent enough, the data was lost while the account itself survived undeleted. Reauthentication is now always required before anything is touched, for both password and Google accounts
+- The TV Time import link could open the TV Time app itself instead of a browser — it now forces the default browser
+- Tapping a bottom tab didn't always scroll back to the top — it now always does
+### ✨ New
+- New sort menu in Shows/Movies: by status, alphabetical, genre, or recently added
+- Track special episodes ("Specials", season 0) — without them counting toward a show's completion percentage
+- "Learn more" now shows a presentation of the app, separate from the user guide
+### 🔧 Improved
+- The Profile tab is now split into Settings and Stats sub-tabs instead of one long screen
+- Language picker only offers French/English, the only languages with real translated text
+- The "data source" section is hidden while there's only one provider (TMDB)
+- Sign-up verification email temporarily disabled (was landing in spam without a dedicated sending domain)
+- GitHub release titles now include the version number
+
 ## 0.14.0 — July 14, 2026
 ### ✨ New
 - Safer, simpler account deletion: when Firebase requires a recent sign-in, the app now offers to confirm right there with your password (or a fresh Google sign-in) instead of forcing a full sign-out/sign-in
