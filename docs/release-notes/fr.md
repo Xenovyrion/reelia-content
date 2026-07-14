@@ -1,5 +1,18 @@
 # Notes de version
 
+## 0.13.0 — 14 juillet 2026
+### ✨ Nouveautés
+- Annonces in-app : un message important peut s'afficher en bannière ou en popup au lancement, publié directement sur GitHub sans nouvelle version de l'appli
+- Nouvel écran **Aide** (Profil) : le guide d'utilisation est désormais consultable dans l'appli, mis en forme en sections colorées plutôt que du texte brut
+- Retirer un film ou une série de la bibliothèque directement depuis sa fiche (bouton corbeille, avec confirmation)
+### 🐛 Corrections
+- Le bouton d'ajout depuis la recherche amène maintenant directement sur la fiche du titre ajouté ; un retour arrière renvoie à l'accueil série/film plutôt qu'à l'écran de recherche
+- Réinitialiser la bibliothèque puis désinstaller/réinstaller l'appli pouvait faire réapparaître d'anciennes séries et te reconnecter automatiquement — la sauvegarde automatique d'Android, qui restaurait une ancienne copie locale, est désormais désactivée
+### 🔧 Améliorations
+- La flèche retour a une présentation plus soignée sur tous les écrans concernés
+- Les mises à jour dans l'appli suivent désormais de vraies versions numérotées au lieu de se déclencher à chaque nouveau commit
+- Protection renforcée des accès à l'authentification et à la base de données (Firebase App Check)
+
 ## 0.12.0 — 13 juillet 2026
 ### ✨ Nouveautés
 - L'onglet Bibliothèque redevient deux onglets distincts, Séries et Films, chacun avec son propre filtre, sa recherche et son affichage grille/liste — la recherche lancée depuis Séries ne porte que sur les séries, et inversement pour Films

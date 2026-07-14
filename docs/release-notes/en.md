@@ -1,5 +1,18 @@
 # Release notes
 
+## 0.13.0 — July 14, 2026
+### ✨ New
+- In-app announcements: an important message can show as a banner or a popup on launch, published directly on GitHub without a new app version
+- New **Help** screen (Profile): the user guide is now readable in-app, formatted into color-coded sections instead of plain text
+- Remove a show or movie from the library directly from its detail screen (trash button, with confirmation)
+### 🐛 Fixed
+- The add button on Search results now navigates straight to the added title's detail screen; going back returns to the Series/Films home instead of the Search screen
+- Resetting the library then uninstalling/reinstalling the app could bring old shows back and auto-sign you in — Android's default auto-backup, which was restoring a stale local copy, is now disabled
+### 🔧 Improved
+- The back arrow has a more polished look across every screen that uses it
+- In-app updates now follow real version numbers instead of triggering on every new commit
+- Stronger protection on Auth/Firestore access (Firebase App Check)
+
 ## 0.12.0 — July 13, 2026
 ### ✨ New
 - Library is split back into two dedicated tabs, Séries and Films, each with its own filter, search, and grid/list toggle — searching from Séries only searches shows, and from Films only movies
