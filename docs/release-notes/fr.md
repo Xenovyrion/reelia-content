@@ -1,5 +1,15 @@
 # Notes de version
 
+## 0.13.3 — 14 juillet 2026
+### ✨ Nouveautés
+- L'accueil affiche maintenant deux sections "Séries favorites" et "Films favoris" — jusqu'ici, mettre un titre en favori ne se voyait nulle part
+### 🐛 Corrections
+- Après une réinitialisation de bibliothèque, les statistiques en haut de l'onglet Profil pouvaient afficher des chiffres incohérents pendant une fraction de seconde avant de retomber à zéro
+### 🔧 Améliorations
+- Écran de recherche : titre et année centrés sous l'affiche, sans ligne vide inutile quand le titre tient sur une seule ligne (jusqu'à 3 lignes pour les titres longs)
+- Onglet Profil : les boutons "Enregistrer", "Rechercher les mises à jour" et "Notes de version" sont maintenant centrés ; le bouton "Aide" est désormais dans la barre du haut, visible sans avoir à faire défiler jusqu'en bas
+- Retrait du code de diagnostic temporaire ajouté pour identifier le plantage corrigé en 0.13.1
+
 ## 0.13.2 — 14 juillet 2026
 ### 🐛 Corrections
 - Le badge "Actuelle" des notes de version restait bloqué sur la dernière version publiée au lieu de suivre la version réellement installée — il suit maintenant ta version, et les versions plus récentes affichent un badge distinct "Nouvelle version"

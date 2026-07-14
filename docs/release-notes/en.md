@@ -1,5 +1,15 @@
 # Release notes
 
+## 0.13.3 — July 14, 2026
+### ✨ New
+- Home now has two sections, "Favorite Shows" and "Favorite Movies" — favoriting a title used to not show up anywhere
+### 🐛 Fixed
+- After resetting the library, the stats at the top of the Profile tab could briefly flash inconsistent numbers before settling at zero
+### 🔧 Improved
+- Search screen: title and year are now centered under the poster, with no wasted blank line when the title fits on one line (up to 3 lines for long titles)
+- Profile tab: the "Save", "Check for updates" and "Release notes" buttons are now centered; the "Help" button moved into the top bar so it's visible without scrolling to the bottom
+- Removed the temporary diagnostic code added to track down the crash fixed in 0.13.1
+
 ## 0.13.2 — July 14, 2026
 ### 🐛 Fixed
 - The release notes' "Current" badge stayed stuck on the newest published version instead of following the version actually installed — it now tracks your version, and newer entries get a distinct "New version" badge
