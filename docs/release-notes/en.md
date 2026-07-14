@@ -1,5 +1,11 @@
 # Release notes
 
+## 0.19.0 — July 14, 2026
+### ✨ New
+- Home: a "+" button now appears on the "Suggested for you", "Trending Now", "Latest Movie Releases", and "Latest Show Releases" sections to add a title straight to your library without leaving Home
+### 🔧 Improved
+- Home: titles already in your library no longer show up in these 4 sections, and disappear automatically as soon as you add them
+
 ## 0.18.0 — July 14, 2026
 ### 🔧 Improved
 - Show detail, episode tab: a season that hasn't aired yet now keeps its full episode list (no more message replacing it) — a compact "Upcoming season" indicator appears between the episode counter and the "mark all watched" button, and every episode shows its own countdown (or "Date unknown" when TMDB hasn't published an air date yet)

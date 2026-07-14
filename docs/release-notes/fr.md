@@ -1,5 +1,11 @@
 # Notes de version
 
+## 0.19.0 — 14 juillet 2026
+### ✨ Nouveautés
+- Accueil : un bouton "+" apparaît maintenant sur les sections "Suggestions pour toi", "Tendances du moment", "Derniers films sortis" et "Dernières séries sorties" pour ajouter un titre directement à ta bibliothèque sans quitter l'écran d'accueil
+### 🔧 Améliorations
+- Accueil : les titres déjà présents dans ta bibliothèque n'apparaissent plus dans ces 4 sections, et disparaissent automatiquement dès leur ajout
+
 ## 0.18.0 — 14 juillet 2026
 ### 🔧 Améliorations
 - Fiche d'une série, onglet épisodes : une saison pas encore sortie garde maintenant sa liste complète d'épisodes (fini le message qui la remplaçait) — un petit indicateur "Saison à venir" apparaît entre le compteur d'épisodes et le bouton "tout cocher", et chaque épisode affiche son propre compte à rebours (ou "Date inconnue" si TMDB n'a pas encore communiqué la date)
