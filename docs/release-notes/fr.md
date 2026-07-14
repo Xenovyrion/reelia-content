@@ -1,5 +1,12 @@
 # Notes de version
 
+## 0.18.0 — 14 juillet 2026
+### 🔧 Améliorations
+- Fiche d'une série, onglet épisodes : une saison pas encore sortie garde maintenant sa liste complète d'épisodes (fini le message qui la remplaçait) — un petit indicateur "Saison à venir" apparaît entre le compteur d'épisodes et le bouton "tout cocher", et chaque épisode affiche son propre compte à rebours (ou "Date inconnue" si TMDB n'a pas encore communiqué la date)
+- Recherche : quand tu ajoutes plusieurs titres à la suite, le ✓ affiché sur un titre déjà ajouté est maintenant cliquable et le retire de ta bibliothèque — pratique pour annuler un ajout par erreur sans changer d'écran
+- Recherche : les tendances n'affichent plus les titres déjà présents dans ta bibliothèque
+- Recherche : une vraie recherche par texte affiche maintenant un "+" si le titre n'est pas dans ta bibliothèque, ou un ✓ cliquable (pour le retirer) s'il y est déjà
+
 ## 0.17.0 — 14 juillet 2026
 ### ✨ Nouveautés
 - Depuis la recherche, le bouton "+" rapide n'ouvre plus la fiche du titre : tu restes sur l'écran de recherche pour enchaîner les ajouts, et un ✓ remplace le "+" une fois le titre ajouté

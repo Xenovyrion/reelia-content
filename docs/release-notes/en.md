@@ -1,5 +1,12 @@
 # Release notes
 
+## 0.18.0 — July 14, 2026
+### 🔧 Improved
+- Show detail, episode tab: a season that hasn't aired yet now keeps its full episode list (no more message replacing it) — a compact "Upcoming season" indicator appears between the episode counter and the "mark all watched" button, and every episode shows its own countdown (or "Date unknown" when TMDB hasn't published an air date yet)
+- Search: when bulk-adding several titles in a row, the ✓ shown on an already-added title is now tappable and removes it from your library — a quick way to undo an accidental add without leaving the screen
+- Search: trending no longer shows titles already in your library
+- Search: an actual text search now shows a "+" for titles not in your library, or a tappable ✓ (to remove) for titles already there
+
 ## 0.17.0 — July 14, 2026
 ### ✨ New
 - The quick "+" button on a search result no longer opens the title's detail screen — you stay on the search screen to add several titles in a row, and a ✓ replaces the "+" once added
