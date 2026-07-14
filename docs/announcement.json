@@ -1,8 +1,8 @@
 {
-  "id": "test-announcement-1",
+  "id": "announcement-welcome",
   "important": false,
   "message": {
-    "fr": "Ceci est un message de test : le système d'annonces in-app fonctionne ! Édite docs/announcement.json sur GitHub pour changer ce message (et son id) et le republier.",
-    "en": "This is a test message: the in-app announcement system works! Edit docs/announcement.json on GitHub to change this message (and its id) to republish it."
+    "fr": "Bienvenue dans l'application Reelia, l'application de gestion de suivi des série et films",
+    "en": "Welcome to the Reelia app, the app for tracking TV shows and movies"
   }
 }
