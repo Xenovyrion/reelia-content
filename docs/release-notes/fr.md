@@ -1,5 +1,15 @@
 # Notes de version
 
+## 0.14.0 — 14 juillet 2026
+### ✨ Nouveautés
+- Suppression de compte plus simple à sécuriser : si Firebase demande une reconnexion récente, l'appli propose maintenant de confirmer directement avec ton mot de passe (ou une reconnexion Google) au lieu de devoir te déconnecter puis te reconnecter
+- Indicateur de force du mot de passe à l'inscription, avec un minimum de 8 caractères exigé
+- Bouton œil sur les champs mot de passe pour voir ce que tu as saisi
+- Email de vérification envoyé automatiquement à l'inscription
+- Le bouton "En savoir plus" de l'écran de connexion ouvre maintenant une présentation dans l'appli (même forme que le guide) au lieu d'une page GitHub
+### 🐛 Corrections
+- Après une déconnexion ou une suppression de compte, l'écran de connexion gardait l'email et le mot de passe précédemment saisis au lieu d'être vide
+
 ## 0.13.3 — 14 juillet 2026
 ### ✨ Nouveautés
 - L'accueil affiche maintenant deux sections "Séries favorites" et "Films favoris" — jusqu'ici, mettre un titre en favori ne se voyait nulle part

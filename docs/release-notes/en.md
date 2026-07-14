@@ -1,5 +1,15 @@
 # Release notes
 
+## 0.14.0 — July 14, 2026
+### ✨ New
+- Safer, simpler account deletion: when Firebase requires a recent sign-in, the app now offers to confirm right there with your password (or a fresh Google sign-in) instead of forcing a full sign-out/sign-in
+- Password strength indicator at sign-up, with a minimum of 8 characters required
+- Eye icon on password fields to reveal what you typed
+- Verification email sent automatically on sign-up
+- The "Learn more" button on the sign-in screen now opens an in-app presentation (same look as the guide) instead of a GitHub page
+### 🐛 Fixed
+- After signing out or deleting your account, the sign-in screen kept the previously typed email and password instead of being blank
+
 ## 0.13.3 — July 14, 2026
 ### ✨ New
 - Home now has two sections, "Favorite Shows" and "Favorite Movies" — favoriting a title used to not show up anywhere
