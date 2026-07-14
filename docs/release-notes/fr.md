@@ -1,5 +1,15 @@
 # Notes de version
 
+## 0.16.0 — 14 juillet 2026
+### ✨ Nouveautés
+- Nouvelle recherche locale dans Séries/Films : recherche par texte dans ta bibliothèque (titre ou nom d'épisode), à ne pas confondre avec la recherche TMDB déjà existante qui sert à trouver de nouveaux titres à ajouter
+### 🐛 Corrections
+- Après avoir ajouté une série ou un film depuis la recherche, le bouton retour du téléphone ramenait sur l'écran de recherche au lieu de revenir sur l'onglet Séries/Films
+- Le cercle de progression sur les affiches en grille n'avait pas le même fond sombre que celui de l'accueil, ce qui le rendait difficile à voir sur une affiche claire
+- Tri "Dernier vu" : une série tout juste ajoutée pouvait apparaître en premier si un ancien historique de visionnage existait déjà pour elle (série supprimée puis réajoutée, ou import TV Time) — seul un visionnage postérieur à l'ajout compte désormais pour ce tri
+### 🔧 Améliorations
+- Le bouton "Réinitialiser" du panneau filtre/tri applique maintenant directement la réinitialisation au lieu d'attendre un appui supplémentaire sur "Appliquer"
+
 ## 0.15.2 — 14 juillet 2026
 ### 🐛 Corrections
 - Le bouton "Réinitialiser" du panneau filtre/tri ne remettait pas l'ordre de tri à sa valeur par défaut, seulement les filtres de statut/genre

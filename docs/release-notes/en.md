@@ -1,5 +1,15 @@
 # Release notes
 
+## 0.16.0 — July 14, 2026
+### ✨ New
+- New local search in Shows/Movies: text search across your own library (title or episode name) — separate from the existing TMDB search used to find new titles to add
+### 🐛 Fixed
+- After adding a show or movie from search, the phone's back button returned to the search results screen instead of the Shows/Movies tab
+- The progress ring on grid posters didn't have the same dark backing as Home's ring, making it hard to see against a bright poster
+- "Recently watched" sort: a freshly added show could show up first if old watch history already existed for it (e.g. removed and re-added, or TV Time import) — only a watch that happened after the add now counts toward this sort
+### 🔧 Improved
+- The filter/sort sheet's "Reset" button now applies the reset immediately instead of waiting for a separate tap on "Apply"
+
 ## 0.15.2 — July 14, 2026
 ### 🐛 Fixed
 - The filter/sort sheet's "Reset" button didn't reset the sort order back to its default, only the status/genre filters
