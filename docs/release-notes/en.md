@@ -1,5 +1,11 @@
 # Release notes
 
+## 0.20.1 — July 15, 2026
+### 🐛 Fixed
+- Updating to 0.20.0 accidentally wiped the entire local library cache, forcing a full resync from the cloud and a fresh TMDB re-download of every show/movie — almost certainly the cause of the very slow first Home load, with categories only appearing after ~20 seconds. Fixed: updating to this version no longer touches your local data
+### 🔧 Improved
+- Home: the Movies, Shows, and Suggestions sections now each load independently instead of waiting for all three to be ready before showing anything
+
 ## 0.20.0 — July 15, 2026
 ### ✨ New
 - Home: the "Trending Now", "Latest Movie Releases", and "Latest Show Releases" sections are replaced by two sections — **Movies** and **Shows** — each with a dropdown next to the title to pick Popular, Top Rated, Upcoming, or Right Now

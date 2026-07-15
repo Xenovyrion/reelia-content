@@ -1,5 +1,11 @@
 # Notes de version
 
+## 0.20.1 — 15 juillet 2026
+### 🐛 Corrections
+- La mise à jour vers la 0.20.0 déclenchait par erreur une réinitialisation complète du cache local de la bibliothèque, forçant une resynchronisation intégrale depuis le cloud et un nouveau téléchargement de chaque série/film depuis TMDB — c'est très probablement ce qui causait le premier affichage très lent de l'accueil et les catégories qui n'apparaissaient qu'après ~20 secondes. Corrigé : la mise à jour vers cette version ne touche plus à tes données locales
+### 🔧 Améliorations
+- Accueil : les sections Films, Séries et Suggestions se chargent maintenant chacune indépendamment au lieu d'attendre que toutes soient prêtes avant de s'afficher
+
 ## 0.20.0 — 15 juillet 2026
 ### ✨ Nouveautés
 - Accueil : les sections "Tendances du moment", "Derniers films sortis" et "Dernières séries sorties" sont remplacées par deux sections **Films** et **Séries**, chacune avec un menu déroulant à côté du titre pour choisir Populaire, Mieux notés, À venir ou Du moment
