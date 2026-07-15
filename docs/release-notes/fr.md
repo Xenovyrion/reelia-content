@@ -1,5 +1,12 @@
 # Notes de version
 
+## 0.20.0 — 15 juillet 2026
+### ✨ Nouveautés
+- Accueil : les sections "Tendances du moment", "Derniers films sortis" et "Dernières séries sorties" sont remplacées par deux sections **Films** et **Séries**, chacune avec un menu déroulant à côté du titre pour choisir Populaire, Mieux notés, À venir ou Du moment
+- Fiches films/séries (et écrans de prévisualisation avant ajout) : affichage de la classification d'âge (ex. "16", "PG-13", "TV-MA") à côté de la note, quand TMDB fournit l'info
+### 🔧 Améliorations
+- Chargement des affiches et images avec un fondu enchaîné au lieu d'une apparition brutale, pour un défilement plus fluide
+
 ## 0.19.0 — 14 juillet 2026
 ### ✨ Nouveautés
 - Accueil : un bouton "+" apparaît maintenant sur les sections "Suggestions pour toi", "Tendances du moment", "Derniers films sortis" et "Dernières séries sorties" pour ajouter un titre directement à ta bibliothèque sans quitter l'écran d'accueil

@@ -1,5 +1,12 @@
 # Release notes
 
+## 0.20.0 — July 15, 2026
+### ✨ New
+- Home: the "Trending Now", "Latest Movie Releases", and "Latest Show Releases" sections are replaced by two sections — **Movies** and **Shows** — each with a dropdown next to the title to pick Popular, Top Rated, Upcoming, or Right Now
+- Show/movie detail pages (and the pre-add preview screens) now show the age/content rating (e.g. "16", "PG-13", "TV-MA") next to the star rating, whenever TMDB has one for the title
+### 🔧 Improved
+- Posters and images now fade in instead of popping in abruptly, for smoother scrolling
+
 ## 0.19.0 — July 14, 2026
 ### ✨ New
 - Home: a "+" button now appears on the "Suggested for you", "Trending Now", "Latest Movie Releases", and "Latest Show Releases" sections to add a title straight to your library without leaving Home
