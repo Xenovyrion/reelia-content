@@ -1,5 +1,10 @@
 # Release notes
 
+## 0.20.2 — July 15, 2026
+### 🐛 Fixed
+- Preview screens (before adding, reached from search or from an actor's filmography): tapping a cast member did nothing — it now correctly opens their page
+- Home, "Continue Watching" section: a show whose only remaining unwatched episode belongs to an announced-but-unreleased season no longer shows up there
+
 ## 0.20.1 — July 15, 2026
 ### 🐛 Fixed
 - Updating to 0.20.0 accidentally wiped the entire local library cache, forcing a full resync from the cloud and a fresh TMDB re-download of every show/movie — almost certainly the cause of the very slow first Home load, with categories only appearing after ~20 seconds. Fixed: updating to this version no longer touches your local data

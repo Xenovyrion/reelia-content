@@ -1,5 +1,10 @@
 # Notes de version
 
+## 0.20.2 — 15 juillet 2026
+### 🐛 Corrections
+- Fiches de prévisualisation (avant ajout, depuis la recherche ou depuis la filmographie d'un acteur) : cliquer sur un acteur ne faisait rien — ça ouvre maintenant bien sa fiche
+- Accueil, section "Continuer" : une série dont le seul épisode restant à voir fait partie d'une saison annoncée mais pas encore sortie n'apparaît plus dans cette section
+
 ## 0.20.1 — 15 juillet 2026
 ### 🐛 Corrections
 - La mise à jour vers la 0.20.0 déclenchait par erreur une réinitialisation complète du cache local de la bibliothèque, forçant une resynchronisation intégrale depuis le cloud et un nouveau téléchargement de chaque série/film depuis TMDB — c'est très probablement ce qui causait le premier affichage très lent de l'accueil et les catégories qui n'apparaissaient qu'après ~20 secondes. Corrigé : la mise à jour vers cette version ne touche plus à tes données locales
