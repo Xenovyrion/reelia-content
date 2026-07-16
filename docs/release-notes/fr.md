@@ -1,5 +1,10 @@
 # Notes de version
 
+## 0.21.0 — 16 juillet 2026
+### 🐛 Corrections
+- Fiches de prévisualisation (recherche, tendances de l'accueil, filmographie d'un acteur) : un titre déjà dans ta bibliothèque affiche maintenant "Ajouté" et t'emmène vers ta fiche suivie, au lieu de proposer de l'ajouter à nouveau
+- Statistique "temps regardé" : les épisodes et films dont TMDB ne donne aucune durée étaient comptés comme 0 minute au lieu d'une estimation, ce qui sous-évaluait discrètement le total (particulièrement visible après un import TV Time) — corrigé pour les prochains visionnages, et ton historique déjà enregistré a été corrigé rétroactivement
+
 ## 0.20.2 — 15 juillet 2026
 ### 🐛 Corrections
 - Fiches de prévisualisation (avant ajout, depuis la recherche ou depuis la filmographie d'un acteur) : cliquer sur un acteur ne faisait rien — ça ouvre maintenant bien sa fiche

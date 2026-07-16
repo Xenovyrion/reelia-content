@@ -1,5 +1,10 @@
 # Release notes
 
+## 0.21.0 — July 16, 2026
+### 🐛 Fixed
+- Preview screens (search, Home's trending sections, an actor's filmography): a title already in your library now shows "Added" and takes you to your tracked copy, instead of offering to add it again
+- "Hours watched" stat: episodes and movies TMDB has no runtime data for were counted as 0 minutes instead of a reasonable estimate, silently undercounting the total (especially noticeable after a TV Time import) — fixed going forward, and your already-logged watch history has been corrected retroactively
+
 ## 0.20.2 — July 15, 2026
 ### 🐛 Fixed
 - Preview screens (before adding, reached from search or from an actor's filmography): tapping a cast member did nothing — it now correctly opens their page
